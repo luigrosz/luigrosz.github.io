@@ -1,0 +1,15 @@
+/* Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+/* Bubble */
+@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  /* font-family: "Poppins", sans-serif; */
+  background-color: #202124;
+  min-height: 100vh;
+}

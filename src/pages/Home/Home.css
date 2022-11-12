@@ -1,0 +1,52 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffffc9;
+  font-size: 100px;
+  font-family: "Bubblegum Sans";
+  padding: 50px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffffc9;
+  font-size: 14px;
+  font-family: "Bubblegum Sans";
+  bottom: 0px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card {
+  /* border: 150px solid red; */
+  margin: 25px;
+  border-radius: 50%;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+a {
+  padding-left: 3px;
+  color: #ffffff94;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+}
