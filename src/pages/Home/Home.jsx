@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <header>
-        Papai Group
+        Grupo Papai
       </header>
       <main>
         <img src='gp_papai.jpg' />
@@ -15,7 +15,7 @@ export default function Home() {
         <div className="card"></div> */}
       </main>
       <footer>
-        Business inquiries deal with Jonatas Apolinario, click<a href="mailto:jonatasapolinario41@gmail.com">here!</a>
+        Business inquiries deal with <a style={{ textDecoration: "none" }} href="https://wa.me/5566996232793">Jonatas Apolinario</a>, click<a href="mailto:jonatasapolinario41@gmail.com">here!</a>
       </footer>
     </div>
   )
