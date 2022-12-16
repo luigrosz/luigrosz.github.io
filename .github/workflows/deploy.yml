@@ -30,14 +30,14 @@ jobs:
         with:
           name: production-files
           path: ./dist
-          
-      - name: Make cname to link to url
-        run: touch CNAME && echo "papai.site" > CNAME
 
   deploy:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
+    environment: 
+      name: production
+      url: https://github.com
     if: github.ref == 'refs/heads/main'
 
     steps:
