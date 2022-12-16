@@ -36,8 +36,8 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     environment: 
-      name: production
-      url: https://github.com
+      name: gh-pages
+      url: https://papai.site
     if: github.ref == 'refs/heads/main'
 
     steps:
